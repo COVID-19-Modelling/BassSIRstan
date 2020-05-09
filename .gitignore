@@ -1,11 +1,10 @@
 .Rproj.user
 dat.rdata
 rbuild.R
-
 src/*.o
 src/*.so
 src/*.dll
-
 src-i386/*.o
 src-i386/*.so
 src-i386/*.dll
+test.R
