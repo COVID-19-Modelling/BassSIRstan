@@ -1,6 +1,6 @@
 # MIT License
 
-Copyright (c) 2020 Chu-Chang Ku
+Copyright (c) 2020 Chu-Chang Ku, Ta-Chou Ng, and Hsien-Ho Lin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

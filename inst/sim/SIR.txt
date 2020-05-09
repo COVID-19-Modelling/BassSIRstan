@@ -1,0 +1,25 @@
+deriv(I) <- foi * S - dropout * I
+deriv(A) <- dropout * I
+
+initial(I) <- I0
+initial(A) <- A0
+
+
+S <- m - I - A
+
+
+output(Inc) <- foi * S
+output(FOI) <- foi
+output(PrEx) <- 0
+output(Re) <- beta / dropout * S / m
+output(R0) <- beta / dropout
+
+
+foi <- beta * (I / m)
+
+m <- user(1000)
+I0 <- user(5)
+A0 <- user(5)
+
+beta <- user(0.3)
+dropout <- user(0)
