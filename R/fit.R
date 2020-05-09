@@ -154,6 +154,9 @@ fit_two_step <- function(sel, loc = "X",
 #' @export
 #'
 #' @examples
+#' f_bass_sir = fit_two_step(tail(n_by_country$US, 20), "US", refresh = 0)
+#' summary(f_bass_sir)
+#' 
 summary.estBassSIR <- function(est) {
   y <- list()
   
