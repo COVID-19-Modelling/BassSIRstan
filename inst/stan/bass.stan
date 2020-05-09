@@ -53,7 +53,7 @@ generated quantities {
 
   for (i in 1:n_t) {
     I_hat[i] = fmax(I[i] + normal_rng(mu[i], sigma_i), 0);
-    Rt[i] = R0 * (m - A[i + 2] - I_hat[i]) / m;
+    Rt[i] = fmax(R0 * (m - A[i + 2] - I_hat[i]) / m, 0);
     PrEx[i] = kappa / (kappa + beta * I_hat[i] / m);
   }
 }
