@@ -1,0 +1,32 @@
+Package: BassSIRstan
+Title: Infectious disease modelling with Bass-SIR model
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Chu-Chang",
+           family = "Ku",
+           role = c("aut", "cre"),
+           email = "TimeWz667@gmail.com",
+           comment = c(ORCID = "https://orcid.org/0000-0002-4719-117X"))
+Maintainer: TimeWz667 <TimeWz667@gmail.com>
+Description: Modelling outbreaks of infectious disease with Bass-SIR models
+    The strengths of this modelling framework are: fast, valided, fitness for non-homogeneious networks.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Biarch: true
+Depends: 
+    R (>= 3.4.0)
+Imports: 
+    methods,
+    Rcpp (>= 0.12.0),
+    rstan (>= 2.18.1),
+    rstantools (>= 2.0.0)
+LinkingTo: 
+    BH (>= 1.66.0),
+    Rcpp (>= 0.12.0),
+    RcppEigen (>= 0.3.3.3.0),
+    rstan (>= 2.18.1),
+    StanHeaders (>= 2.18.0)
+SystemRequirements: GNU make
