@@ -1,6 +1,6 @@
 #' The 'BassSIRstan' package.
 #'
-#' @description A DESCRIPTION OF THE PACKAGE
+#' @description Infectious disease modelling with Bass-SIR model
 #'
 #' @docType package
 #' @name BassSIRstan-package
